@@ -1,0 +1,28 @@
+# Binários Go
+/main
+*.exe
+*.test
+
+# Pastas de build temporárias
+/build/
+dist/
+
+# Diretórios de cache
+*.log
+*.out
+*.tmp
+
+# Módulos Go
+/vendor/
+
+# GoLand / VSCode
+.idea/
+.vscode/
+*.swp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+postgres_data/

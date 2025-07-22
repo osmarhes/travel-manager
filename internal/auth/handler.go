@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"travel-manager/internal/user"
+	"github.com/osmarhes/travel-manager/internal/user"
 
 	"github.com/labstack/echo/v4"
 	"golang.org/x/crypto/bcrypt"

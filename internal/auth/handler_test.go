@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"travel-manager/internal/user"
+	"github.com/osmarhes/travel-manager/internal/user"
 
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"

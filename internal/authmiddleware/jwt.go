@@ -4,7 +4,8 @@ import (
 	"net/http"
 	"os"
 	"strings"
-	"travel-manager/internal/auth"
+
+	"github.com/osmarhes/travel-manager/internal/auth"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"

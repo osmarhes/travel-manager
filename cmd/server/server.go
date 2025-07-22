@@ -7,11 +7,11 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 
-	"travel-manager/internal/auth"
-	"travel-manager/internal/authmiddleware"
-	"travel-manager/internal/travel"
-	"travel-manager/internal/user"
-	"travel-manager/pkg/database"
+	"github.com/osmarhes/travel-manager/internal/auth"
+	"github.com/osmarhes/travel-manager/internal/authmiddleware"
+	"github.com/osmarhes/travel-manager/internal/travel"
+	"github.com/osmarhes/travel-manager/internal/user"
+	"github.com/osmarhes/travel-manager/pkg/database"
 )
 
 func Run() {
